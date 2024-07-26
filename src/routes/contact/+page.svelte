@@ -1,16 +1,27 @@
 
-<div class="grid-rows-2">
-    <h1  class= "text-3xl flex justify-center m-10">Contact </h1>
-    <h1 class="text-3xl flex flex-col min-h-screen justify-center items-center gap-40"> 
-    
-    <a href="https://www.linkedin.com/in/tyler-lui-82779721b/">LinkedIn</a>
 
-    <a href="https://github.com/tylermlui">Github</a>
-</h1>
+
+
+<script>
+    import { goto } from '$app/navigation';
+
+
+    function goToContact(){
+        goto('/')
+    }
+
+</script>
+<h1 class= "text-4xl flex justify-center m-10"> Projects</h1>
+<button on:click={goToContact} class="m-10 text-xl"> Back</button>
+<div class=" grid-cols-4 gap-80 m-10 flex justify-center text-2xl">
+    <div>
+        <a href="https://www.linkedin.com/in/tyler-lui-82779721b/">LinkedIn</a>
+
+    </div>
+    <div>
+        <a href="https://github.com/tylermlui">Github</a>
+
+    </div>
+
 </div>
-
-
-
-
-
 
