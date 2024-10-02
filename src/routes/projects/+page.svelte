@@ -13,7 +13,7 @@
         <div class="grid grid-cols-2 gap-2 pt-5">
             <a class="box-border border-white w-auto h-auto backdrop-blur-xl bg/black/30 p-4 rounded hover:backdrop-blur-3xl" href="https://www.linkedin.com/in/tyler-lui-82779721b/" >
                 <div class="flex justify-center items-center">
-                    <img class="rounded-sm" src="/static/tuffparking.svg" alt="Tuff Parking">
+                    <img class="rounded-sm" src="/tuffparking.svg" alt="Tuff Parking">
                 </div>
                 <p class="my-auto text-white col-span-4 text-xl font-bold pt-2" >Tuff Parking</p>
                 <p class="my-auto text-white col-span-4 text-sm font-thin" >Streamlined version of CSUF's parking website.</p>
@@ -21,7 +21,7 @@
             </a>
             <a class="box-border border-white w-auto h-auto backdrop-blur-xl bg/black/30 p-4 rounded hover:backdrop-blur-3xl" href="https://www.linkedin.com/in/tyler-lui-82779721b/" >
                 <div class="flex justify-center items-center">
-                    <img class="rounded-sm h-32 " src="/static/ClearCosmetics.png" alt="Clear Cosmetics">
+                    <img class="rounded-sm h-32 " src="/ClearCosmetics.png" alt="Clear Cosmetics">
                 </div>
                 <p class="my-auto text-white col-span-4 text-xl font-bold pt-2" >Clear Cosmetics</p>
                 <p class="my-auto text-white col-span-4 text-sm font-thin" >Web app that will allow users to check if their products have potentially harmful ingredients in them.</p>
