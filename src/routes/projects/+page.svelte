@@ -8,7 +8,7 @@
 <div 
     class={`flex items-center justify-center min-h-screen transition-all duration-300 ease-in-out bg-cover bg-center`} 
     style="background-image: url('https://www.chieftain.com/gcdn/authoring/2017/06/01/NTPC/ghows-CO-b6a1d186-bfcf-42ba-9c6d-525dc212aed7-33899952.jpeg?width=1500&height=1000&fit=crop&format=pjpg&auto=webp')">
-    <div class="h-auto w-1/2 p-5 backdrop-blur-sm bg-white/30 rounded gap-2">
+    <div class="h-auto w-3/4 p-5 backdrop-blur-sm bg-white/30 rounded gap-2">
         <h1 class="text-white text-3xl font-bold ">Projects</h1> 
         <div class="grid grid-cols-2 gap-2 pt-5">
             <a class="box-border border-white w-auto h-auto backdrop-blur-xl bg/black/30 p-4 rounded hover:backdrop-blur-3xl" href="https://www.linkedin.com/in/tyler-lui-82779721b/" >
