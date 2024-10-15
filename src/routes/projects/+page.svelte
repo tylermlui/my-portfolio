@@ -8,7 +8,7 @@
 <div 
     class={`flex items-center justify-center min-h-screen transition-all duration-300 ease-in-out bg-cover bg-center`} 
     style="background-image: url('https://www.chieftain.com/gcdn/authoring/2017/06/01/NTPC/ghows-CO-b6a1d186-bfcf-42ba-9c6d-525dc212aed7-33899952.jpeg?width=1500&height=1000&fit=crop&format=pjpg&auto=webp')">
-    <div class="h-auto w-3/4 p-5 backdrop-blur-sm bg-white/30 rounded gap-2">
+    <div class="h-auto w-3/4 md:w-5/6 p-5 backdrop-blur-sm bg-white/30 rounded gap-2">
         <h1 class="text-white text-3xl font-bold ">Projects</h1> 
         <div class="grid grid-cols-2 gap-2 pt-5">
             <a class="box-border border-white w-auto h-auto backdrop-blur-xl bg/black/30 p-4 rounded hover:backdrop-blur-3xl" >
@@ -25,11 +25,7 @@
                 </div>
                 <p class="my-auto text-white col-span-4 text-2xl font-bold pt-2" >Clear Cosmetics</p>
                 <p class="my-auto text-white col-span-4 text-lg font-thin" >Web app that will allow users to check if their products have potentially harmful ingredients in them.</p>
-                <div class="box-border border-white w-auto h-auto rounded hover:backdrop-blur-3xl"> 
-                    <a class="my-auto text-sky-400 col-span-4 text-lg" href="https://github.com/tylermlui/Clear-Cosmetics">Github Repo</a>
-                </div>
-
-            </a>
+                <a class="my-auto text-sky-400 col-span-4 text-lg" href="https://github.com/tylermlui/Clear-Cosmetics">Github Repo</a></a>
         </div>
         <div class="flex justify-center items-center mt-5">
             <button class="px-5 py-2 bg-blue-500 text-white rounded" on:click={goToBase}>Close</button>
