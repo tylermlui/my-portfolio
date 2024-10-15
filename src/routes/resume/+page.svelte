@@ -13,12 +13,10 @@
 
         <h1 class="text-white text-3xl font-bold pb-3 ">Resume</h1> 
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <object class="pdf rounded " 
-                data=
-                "static/Tyler_s_Resume-3.pdf"
-                        width="350"
-                        height="450">
-                </object>
+                <iframe class="pdf rounded"
+                src="/Tyler_s_Resume-3.pdf"
+                width="350"
+                height="450"></iframe>
                 
                 <div class="flex justify-center items-center mt-5">
                     <button class="px-5 py-2 bg-blue-500 text-white rounded" on:click={goToBase}>Close</button>
