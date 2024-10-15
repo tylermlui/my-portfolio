@@ -2,7 +2,7 @@
     import { goto } from '$app/navigation';
 
     function goToBase(){
-        goto('/')
+        goto('https://my-portfolio-blue-alpha-16.vercel.app/')
     }
 </script>
 <div 
